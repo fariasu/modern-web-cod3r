@@ -9,10 +9,10 @@ const pessoa = {
     }
 }
 
-const { nome, idade } = pessoa
+const { nome, idade } = pessoa // tirar o atributo 'nome' e 'idade' de dentro do objeto 'pessoa'
 console.log(nome, idade)
 
-const { nome: n, idade: i } = pessoa
+const { nome: n, idade: i } = pessoa // tira o atributo de dentro do objeto 'pessoa' e atribui uma nova variável
 console.log(n, i)
 
 const { sobrenome, bemHumorada = true } = pessoa
